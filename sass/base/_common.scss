@@ -1,3 +1,11 @@
+:root {
+  --main-text-color: #757575;
+  --title-color: #212121;
+  --link-color: #2196f3;
+
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -42,4 +50,8 @@ img {
 
 .current {
   color: var(--link-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
 }
