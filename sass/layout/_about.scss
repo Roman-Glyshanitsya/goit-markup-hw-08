@@ -1,0 +1,29 @@
+.about-list {
+  display: flex;
+}
+
+.about-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-list__thumb {
+  position: relative;
+}
+
+.about-list__thumb-title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  margin: 0;
+
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}

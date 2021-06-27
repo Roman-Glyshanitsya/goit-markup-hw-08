@@ -1,0 +1,37 @@
+.social-icons {
+  display: inline-flex;
+  margin-bottom: 30px;
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+
+    transition: fill var(--animation);
+  }
+}
+
+.social-icons__item + .social-icons__item {
+  margin-left: 10px;
+}
+
+.social-icons__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  transition: background-color var(--animation);
+
+  &:hover,
+  &:focus {
+    background-color: var(--link-color);
+
+    .icon {
+      fill: #ffffff;
+    }
+  }
+}
