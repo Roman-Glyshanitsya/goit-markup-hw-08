@@ -1,6 +1,5 @@
-.card-content {
-  padding: 10px 14px;
-  border: 1px solid #eeeeee;
+.card-set__item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .card {
@@ -11,10 +10,6 @@
     cursor: pointer;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-}
-
-.card-set__item:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 .card-thumb {
@@ -46,6 +41,11 @@
   line-height: 1.5;
   transition: opacity var(--animation);
   color: #ffffff;
+}
+
+.card-content {
+  padding: 10px 14px;
+  border: 1px solid #eeeeee;
 }
 
 .filter-list-title {

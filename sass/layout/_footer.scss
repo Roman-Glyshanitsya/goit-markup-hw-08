@@ -15,40 +15,40 @@
     color: #ffffff;
   }
 
+  .logo__footer {
+    color: #ffffff;
+  }
+
+  .address {
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+    .item:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  .footer-address {
+    color: #ffffff;
+  }
+
+  .social-icons__link {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--animation);
+
+    &:hover,
+    &:focus {
+      background-color: var(--link-color);
+    }
+  }
+
   .social-icons {
     padding-bottom: 60px;
   }
 
   .icon {
     fill: #ffffff;
-  }
-}
-
-.logo__footer {
-  color: #ffffff;
-}
-
-.address {
-  padding-top: 20px;
-  padding-bottom: 60px;
-
-  .item:not(:last-child) {
-    margin-bottom: 8px;
-  }
-}
-
-.footer-address {
-  color: #ffffff;
-}
-
-.social-icons__link {
-  background-color: rgba(255, 255, 255, 0.1);
-
-  transition: background-color var(--animation);
-
-  &:hover,
-  &:focus {
-    background-color: var(--link-color);
   }
 }
 
